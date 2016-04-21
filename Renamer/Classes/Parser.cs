@@ -129,7 +129,7 @@ namespace Renamer.Classes
 
         public void replaceOldForNewFilename(FileRename _file)
         {
-            // string spacer;
+            string spacer;
             Match match = Extract.Match(_file.OldFilename);
             _file.Match = match.Success;
 
